@@ -1,0 +1,14 @@
+---
+layout:
+redirect_from: /security.txt.html
+---
+Contact: https://iww.org/directory
+Encryption: https://iww.org/directory
+Acknowledgments: {{ site.url }}/humans.txt
+Preferred-Languages: en, fr
+Canonical: {{ site.url }}/.well-known/security.txt
+{%- comment -%}
+Policy:
+{% endcomment %}
+Hiring: https://jobs.iww.org
+Expires: {{ site.time | date: "%Y" | append: "-12-31" | date_to_rfc822 }}

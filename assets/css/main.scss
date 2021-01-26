@@ -1,0 +1,181 @@
+---
+---
+@charset "utf-8";
+
+@import "normalize"; // normalize.css v8.0.1
+
+html {
+  scroll-behavior: smooth;
+  height: -webkit-fill-available;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  background: hsl(0,0%,98%);
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol',sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 1.6;
+  color: #333;
+  word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'GT Eesti Display',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol',sans-serif;
+  line-height: 0.9;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 1 0 auto;
+  width: 100%;
+  padding: var(--space) var(--space) 0;
+  background: #fff;
+
+  &:after {
+    content: '\00a0';
+    display: block;
+    margin-top: var(--space);
+    height: 0px;
+    visibility: hidden;
+  }
+
+  &--full {
+    padding: 0;
+  }
+
+  &--full:after {
+    content: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #2d7ff9;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+abbr {
+  text-decoration: none !important;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+
+  .iww-logo {
+    max-width: 8rem;
+    margin: .8rem;
+  }
+
+  a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    transform: translateZ(0);
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding-bottom: 1rem;
+
+  span {
+    font-size: 1rem;
+    font-weight: 100;
+
+    a {
+      font-weight: 300;
+      color: inherit;
+    }
+  }
+}
+
+.content {
+  max-width: unquote('min(90%, 52rem)');
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.75rem 2rem 0;
+  background: #fff;
+  text-align: left;
+}
+
+#application {
+  transition: height .3s;
+}
+
+.iww-logo {
+  circle:last-of-type, path, line {
+    fill: none;
+    stroke: var(--color);
+    stroke-miterlimit: 10;
+  }
+  circle {
+    fill: none;
+  }
+  circle:last-of-type {
+    stroke-width: 15px;
+  }
+  path {
+    stroke-width: 8px;
+  }
+  line {
+    stroke-width: 9px;
+  }
+  polygon {
+  fill: var(--color);
+  }
+
+  &.reversed {
+    circle:last-of-type, path, line {
+      stroke: hsl(0,0%,98%);
+    }
+    polygon {
+      fill: hsl(0,0%,98%);
+    }
+    circle {
+      fill: var(--color);
+    }
+  }
+}
+
+.social-icons {
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  svg {
+    width: 50px;
+    height: 50px;
+    fill: #333;
+  }
+
+  a {
+    text-decoration: none;
+    transition: opacity 0.4s;
+    transform: translateZ(0);
+  }
+
+  &:hover > a {
+    opacity: 0.3;
+  }
+
+  &:hover a:hover {
+      opacity: 1.0 !important;
+  }
+}

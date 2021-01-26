@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- Learn about IWW membership at iww.org/membership
+View our GitHub organization at github.com/iww -->
+<html lang="{{- page.lang | default: site.lang | default: "en" -}}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <header>
+      {% include header.html %}
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      {% include footer.html %}
+    </footer>
+    {% include userway.html %}
+  </body>
+</html>

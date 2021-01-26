@@ -1,0 +1,67 @@
+title: Jobs with the IWW
+tagline:
+description: "The Industrial Workers of the World (IWW) is a labor union representing nearly 8,000 workers across North America. Established in 1905, the IWW is a member-led union that uses direct action tactics to empower workers on the job."
+baseurl: ""
+url: "https://jobs.iww.org"
+
+userway_account_token: pZYnrEN6gr
+
+social_icons:
+  - twitter_username: iww
+  - instagram_username: industrialworkersoftheworld
+  - facebook_username: iww.org
+  - youtube_username: theiww
+  - github_username: iww
+
+social:
+  name: Industrial Workers of the World
+  links:
+    - https://twitter.com/iww
+    - https://instagram.com/industrialworkersoftheworld
+    - https://facebook.com/iww.org
+    - https://youtube.com/theiww
+    - https://giphy.com/iww
+    - https://gfycat.com/@theiww
+    - https://tenor.com/users/iww
+    - https://github.com/iww
+
+twitter:
+  username: iww
+  card: summary_large_image
+
+facebook:
+  publisher: iww.org
+
+collections:
+  jobs:
+    output: true
+    permalink: /:path
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      image:
+        path: "/assets/social.png"
+        height: 2048
+        width: 4096
+  - scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: "job"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+sass:
+  sass_dir: _sass
+
+include:
+  - .well-known
+
+exclude:
+  - README.md

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="content">
+  <a href="{{ site.url }}">&#x21ab; See all open positions</a>
+  <h1>{{ page.title }}</h1>
+  <a href="#application"><strong>Skip to job application &#8615;</strong></a>
+  <h2>About the IWW</h2>
+  <p>{{ site.description }}</p>
+  {{ content }}
+  <p><em>The IWW actively seeks participation from people from underrepresented populations. This includes, but is not limited to, workers of any race, gender, sexual orientation, religion, nationality, and physical or mental ability. Members may optionally self-identify, especially if they feel it relevant to the position.</em></p>
+</div>
+{% if page.airtable_form_key %}
+  <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
+  <iframe id="application" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/{{- page.airtable_form_key -}}" frameborder="0" onmousewheel="" width="100%" height="100%" style="background: transparent;"></iframe>
+{% endif %}
