@@ -1046,7 +1046,7 @@ Last update: September, 2020, by x364631
 /* TEAM */
 Your title: IWW Tech volunteers
 Site: https://iww.org
-Twitter: https://twitter.com/iww
+Twitter: @iww
 GitHub: https://github.com/iww
 Location: North America
 
@@ -1065,7 +1065,7 @@ Location: North America
 
 Name: Electronic Frontier Foundation (EFF)
 Site: https://eff.org
-Twitter: https://twitter.com/eff
+Twitter: @eff
 
 Name: Project Galileo by Cloudflare
 Site: https://cloudflare.com/galileo
