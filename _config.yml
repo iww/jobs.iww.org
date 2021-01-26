@@ -7,11 +7,11 @@ url: "https://jobs.iww.org"
 userway_account_token: pZYnrEN6gr
 
 social_icons:
-  - twitter_username: iww
-  - instagram_username: industrialworkersoftheworld
-  - facebook_username: iww.org
-  - youtube_username: theiww
-  - github_username: iww
+  - twitter: iww
+  - instagram: industrialworkersoftheworld
+  - facebook: iww.org
+  - youtube: theiww
+  - github: iww
 
 social:
   name: Industrial Workers of the World
