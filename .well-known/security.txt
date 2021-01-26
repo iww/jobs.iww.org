@@ -6,7 +6,7 @@ Contact: https://iww.org/directory
 Encryption: https://iww.org/directory
 Acknowledgments: {{ site.url }}/humans.txt
 Preferred-Languages: en, fr
-Canonical: {{ site.url }}/.well-known/security.txt
+Canonical: {{ page.url | absolute_url }}
 {%- comment -%}
 Policy:
 {% endcomment %}
