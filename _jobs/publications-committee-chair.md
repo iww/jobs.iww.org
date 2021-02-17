@@ -1,7 +1,7 @@
 ---
 title: Publications Committee Chair
 airtable_form_key: shr4qMXAg5qOxvjfm
-published: true
+published: false
 redirect_from: /pub
 ---
 ## Job Description
