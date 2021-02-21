@@ -53,6 +53,7 @@ defaults:
       layout: "job"
 
 plugins:
+  - jekyll-github-metadata
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
