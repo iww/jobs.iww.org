@@ -65,4 +65,6 @@ include:
   - .well-known
 
 exclude:
+  - CNAME
+  - LICENSE
   - README.md
