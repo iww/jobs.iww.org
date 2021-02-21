@@ -94,10 +94,14 @@ footer {
   padding-bottom: 1rem;
 
   span {
-    font-size: 1rem;
-    font-weight: 100;
 
-    a {
+    a:first-child {
+      font-size: 1rem;
+      font-weight: 100;
+      color: inherit;
+    }
+
+    a:last-child {
       font-weight: 300;
       color: inherit;
     }
