@@ -33,6 +33,13 @@ twitter:
 facebook:
   publisher: 197461743711006 # iww.org
 
+webmaster_verifications:
+  google: wXQP5Et3A9V_SSk1eNy9wS1uBentbUutMmVyXwQjDSs
+#  bing: 1234
+#  alexa: 1234
+#  yandex: 1234
+#  baidu: 1234
+
 collections:
   jobs:
     output: true
