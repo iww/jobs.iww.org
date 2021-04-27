@@ -59,9 +59,9 @@ userway_account_token: pZYnrEN6gr
 content_security_policy: # https://content-security-policy.com
   default-src: "'self'"
   script-src: "'self' 'unsafe-inline' https://static.cloudflareinsights.com https://cdn.userway.org"
-  style-src: "'self' 'unsafe-inline'"
+  style-src: "'self' 'unsafe-inline'  https://jobs.iww.org"
   img-src: "'self' data: https://cdn.userway.org"
-  connect-src: "https://api.userway.org"
+  connect-src: "https://api.userway.org https://cloudflareinsights.com"
   font-src: "'self'"
   object-src:
   media-src: "https://cdn.userway.org"
