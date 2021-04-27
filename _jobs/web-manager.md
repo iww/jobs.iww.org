@@ -1,7 +1,7 @@
 ---
 title: Web Manager
 airtable_form_key: shrH6zicChHJA6lvK
-published: false
+published: true
 redirect_from: /web
 ---
 ## Job Description
