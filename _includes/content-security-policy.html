@@ -1,0 +1,52 @@
+{%- capture csp -%}
+  {%- assign site_policies = site.content_security_policy -%}
+  {%- assign layout_policies = layout.content_security_policy -%}
+  {%- assign page_policies = page.content_security_policy -%}
+  {%- capture all_policies -%}
+    {%- for policy in site_policies -%}
+      {{ policy[0] }},
+    {%- endfor -%}
+    {%- for policy in layout_policies -%}
+      {{ policy[0] }},
+    {%- endfor -%}
+    {%- for policy in page_policies -%}
+      {{ policy[0] }},
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- assign unique_policies = all_policies | split: ',' | uniq -%}
+  {%- for policy in unique_policies -%}
+    {%- assign mapped_site_policies = site_policies | map: policy -%}
+    {%- assign mapped_layout_policies = layout_policies | map: policy -%}
+    {%- assign mapped_page_policies = page_policies | map: policy -%}
+    {%- assign filtered_site_policies = site_policies | compact | where: policy, mapped_site_policies | map: policy -%}
+    {%- assign filtered_layout_policies = layout_policies | compact | where: policy, mapped_layout_policies | map: policy -%}
+    {%- assign filtered_page_policies = page_policies | compact | where: policy, mapped_page_policies | map: policy -%}
+    {%- if filtered_site_policies[0] or filtered_layout_policies[0] or filtered_page_policies[0] -%}
+      {%- unless forloop.first -%}{{- '; ' -}}{%- endunless -%}{{ policy }}
+      {%- for policy in site_policies -%}
+        {%- if policy[1] == filtered_site_policies[0] -%}
+          {%- for policy_value in policy[1] -%}
+            {{- ' ' -}}{{ policy_value }}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- for policy in layout_policies -%}
+        {%- if policy[1] == filtered_layout_policies[0] -%}
+          {%- for policy_value in policy[1] -%}
+            {{- ' ' -}}{{ policy_value }}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- for policy in page_policies -%}
+        {%- if policy[1] == filtered_page_policies[0] -%}
+          {%- for policy_value in policy[1] -%}
+            {{- ' ' -}}{{ policy_value }}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if site_policies or layout_policies or page_policies -%}
+<meta http-equiv="Content-Security-Policy" content="{{- csp | split: '; ' | sort | join: '; ' | strip -}}">
+{%- endif -%}

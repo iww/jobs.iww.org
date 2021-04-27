@@ -4,8 +4,6 @@ description: "The Industrial Workers of the World (IWW) is a labor union represe
 baseurl: ""
 url: "https://jobs.iww.org"
 
-userway_account_token: pZYnrEN6gr
-
 social_media_accounts:
   - twitter: iww
   - instagram: industrialworkersoftheworld
@@ -55,6 +53,31 @@ defaults:
       type: "jobs"
     values:
       layout: "job"
+
+userway_account_token: pZYnrEN6gr
+
+content_security_policy: # https://content-security-policy.com
+  default-src: "'self'"
+  script-src: "'self' 'unsafe-inline' https://static.cloudflareinsights.com https://cdn.userway.org"
+  style-src: "'self' 'unsafe-inline'"
+  img-src: "'self' data: https://cdn.userway.org"
+  connect-src: "https://api.userway.org"
+  font-src: "'self'"
+  object-src:
+  media-src: "https://cdn.userway.org"
+  frame-src:
+  sandbox:
+  report-uri:
+  child-src: "https://cdn.userway.org"
+  form-action: "'self'"
+  frame-ancestors:
+  plugin-types:
+  base-uri:
+  report-to:
+  worker-src:
+  manifest-src:
+  prefetch-src:
+  navigate-to:
 
 plugins:
   - jekyll-github-metadata

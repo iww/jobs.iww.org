@@ -1,12 +1,17 @@
 ---
 layout: default
+content_security_policy:
+  script-src: "https://static.airtable.com"
+  child-src: "https://airtable.com"
 ---
 <div class="content">
   <a href="{{ site.url }}">&#x21ab; See all open positions</a>
   <h1>{{ page.title }}</h1>
   <a href="#application"><strong>Skip to job application &#8615;</strong></a>
+  {%- unless content contains site.description -%}
   <h2>About the IWW</h2>
   <p>{{ site.description }}</p>
+  {%- endunless -%}
   {{ content }}
   <p><em>The IWW actively seeks participation from people from underrepresented populations. This includes, but is not limited to, workers of any race, gender, sexual orientation, religion, nationality, and physical or mental ability. Members may optionally self-identify, especially if they feel it relevant to the position.</em></p>
 </div>
