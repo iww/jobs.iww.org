@@ -32,7 +32,6 @@
           {%- endif -%}
         {%- endfor -%}
       {%- endcapture -%}
-      {{- site_non_unique_policies | split: ' ' | uniq | join: ' ' -}}
       {%- capture layout_non_unique_policies -%}
         {%- for policy in layout_policies -%}
           {%- if policy[1] == filtered_layout_policies[0] -%}
@@ -41,8 +40,7 @@
             {%- endfor -%}
           {%- endif -%}
         {%- endfor -%}
-        {%- endcapture -%}
-      {{- layout_non_unique_policies | split: ' ' | uniq | join: ' ' -}}
+      {%- endcapture -%}
       {%- capture page_non_unique_policies -%}
         {%- for policy in page_policies -%}
           {%- if policy[1] == filtered_page_policies[0] -%}
@@ -52,7 +50,12 @@
           {%- endif -%}
         {%- endfor -%}
       {%- endcapture -%}
-      {{- page_non_unique_policies | split: ' ' | uniq | join: ' ' -}}
+      {%- capture unstripped_policies -%}
+        {{- site_non_unique_policies | split: ' ' | uniq | join: ' ' | append: ' ' -}}
+        {{- layout_non_unique_policies | split: ' ' | uniq | join: ' ' | append: ' ' -}}
+        {{- page_non_unique_policies | split: ' ' | uniq | join: ' ' | append: ' ' -}}
+      {%- endcapture -%}
+      {{- unstripped_policies | rstrip -}}
     {%- endif -%}
   {%- endfor -%}
 {%- endcapture -%}
