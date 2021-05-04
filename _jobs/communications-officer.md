@@ -44,6 +44,4 @@ This position is part of a new Communications Department being established in 20
 - A basic working knowledge of labor law in the United States and Canada is required.
 - Experience with legal labor relations processes in the United States or Canada is preferred.
 
-**This vacancy will be open until Monday, May 31, 11:59pm CST.**
-
 If you meet these qualifications, please fill out the following application form.
