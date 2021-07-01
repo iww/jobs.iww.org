@@ -2,7 +2,7 @@
 title: Web Manager
 description: Do you have hands-on experience managing an organization’s website, including both technical aspects and as a part of a larger communication strategy?
 airtable_form_key: shrH6zicChHJA6lvK
-published: true
+published: false
 # redirect_from: /web
 ---
 ## Job Description
