@@ -51,4 +51,4 @@ Si cumple con estos requisitos, favor de completar el siguiente formulario de so
 
 {{ site.description }}
 
-**This vacancy will be open until Friday, August 14th, 11:59pm CST.**
+**Esta vacante estará abierta hasta el viernes 14 de agosto, 11:59pm CST.**
