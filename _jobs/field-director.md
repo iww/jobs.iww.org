@@ -31,7 +31,7 @@ The IWW seeks a Field Director of Organizing with labor organizing experience, a
 ### Qualifications
 
 - Fluency in Spanish; 
-- Comptenancy in English (Level C1 or higher in the Common European Framework of Reference for Languages); 
+- Competency in English (Level C1 or higher in the [Common European Framework of Reference for Languages](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages); 
 - Disciplined work methods and ability to work under pressure;
 - 5+ years of experience in union organizing; 
 - Demonstrated experience in developing and executing comprehensive and strategic unionization plans with large or small, multi-branch corporations, with a proven ability to draft direct-action escalating pressure-tactic based campaigns for diverse workplaces;
