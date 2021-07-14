@@ -51,4 +51,4 @@ If you meet these qualifications, please fill out the following application form
 
 {{ site.description }}
 
-**This vacancy will be open until Friday, August 14th, 11:59pm CST.**
+**This vacancy will be open until Friday, August 14th, 11:59pm CST or until the position is filled.**
