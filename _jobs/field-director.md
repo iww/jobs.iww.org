@@ -6,7 +6,7 @@ published: true
 # redirect_from: /field
 ---
 
-We are thrilled to open applications for the role of Field Director as part of the Industrial Workers of the World (IWW) Field Team Program. This program aims to focus union resources on a carefully selected organizing target with the goal of supporting the creation of a historic union victory and deeply established IWW union. The Field Director will play a crucial role in ensuring this projects’ success and advancing the historical legacy of our union.
+We are thrilled to open applications for the role of Field Director as part of the Industrial Workers of the World (IWW) Field Team Program. This program aims to focus union resources on a carefully selected organizing target with the goal of supporting the creation of a historic union victory and deeply established IWW union. The Field Director will play a crucial role in ensuring this project's success and advancing the historical legacy of our union.
 
 We are proud of our history of organizing across gender, ethnic, and racial lines and our significant contributions to the labor movement around the world. This program will prioritize being accountable to membership and the communities we work in, committed to confronting racial and gender injustice, and being passionate about building a culture of solidarity to make change.
 
@@ -31,7 +31,7 @@ The IWW seeks a Field Director of Organizing with labor organizing experience, a
 ### Qualifications
 
 - Fluency in Spanish; 
-- Competency in English (Level C1 or higher in the [Common European Framework of Reference for Languages](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages); 
+- Competency in English (Level C1 or higher in the [Common European Framework of Reference for Languages](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages)); 
 - Disciplined work methods and ability to work under pressure;
 - 5+ years of experience in union organizing; 
 - Demonstrated experience in developing and executing comprehensive and strategic unionization plans with large or small, multi-branch corporations, with a proven ability to draft direct-action escalating pressure-tactic based campaigns for diverse workplaces;
@@ -43,7 +43,7 @@ The IWW seeks a Field Director of Organizing with labor organizing experience, a
 - Ability to initiate projects, work independently, handle multiple priority projects and meet deadlines;
 - Experience with day-to-day management and operations, including the supervision of personnel (salts, external organizers, volunteers);
 - Understanding and experience with  relevant labor laws; 
-- Ability to use technologies like Google (drive, documents, translate, spreadsheets, calendar, meets, search), Zoom, Signal/SMS, Slack, Salesforce.
+- Ability to use technologies like Google (drive, documents, translate, spreadsheets, calendar, meets, search), Zoom, Signal/SMS, Slack and Salesforce.
 
 If you meet these qualifications, please fill out the following application form. 
 
@@ -51,4 +51,4 @@ If you meet these qualifications, please fill out the following application form
 
 {{ site.description }}
 
-**This vacancy will be open until Friday, August 14th, 11:59pm CST or until the position is filled.**
+**This vacancy will be open until Friday, August 16th, 11:59pm CST or until the position is filled.**
