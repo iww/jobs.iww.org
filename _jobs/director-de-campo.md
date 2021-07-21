@@ -20,7 +20,7 @@ Trabajadores Industriales del Mundo, Industrial Workers of the World (IWW), es u
 
 Buscamos un Director de Campo de Organización con experiencia en organización laboral, así como con un historial demostrado de éxito en la ejecución de campañas sindicales de escala. Bajo la dirección del Departamento de Organización del Sindicato y Brandworkers, el trabajo del Director de Campo de Organización implicará supervisar el despliegue de un equipo de organizadores en el lugar de trabajo dirigidos a un objetivo corporativo en particular. Esta posición tiene su sede en Nueva Jersey.
 
-Contrato de trabajo de 1 año a tiempo completo con posibilidad de renovación.
+Este puesto es un contrato de trabajo a tiempo completo de un año de duración con posibilidad de renovación con una tarifa por hora de 22,50 USD (anualmente: 46 800 USD)
 
 ### Este rol: 
 
