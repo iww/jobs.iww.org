@@ -20,6 +20,8 @@ The Industrial Workers of the World (IWW) is a labor union representing nearly 8
 
 The IWW seeks a Field Director of Organizing with labor organizing experience, as well as a demonstrated record of success in running union drives of scale. Under the direction of the Union’s Organizing Department and Brandworkers, the job of the Field Director of Organizing will involve overseeing the deployment of a team of workplace organizers targeting a particular corporate target. This position is based in New Jersey.
 
+This position is a 1-year long full-time employment contract with the possibility of renewal.
+
 ### This role will: 
 
 - Work in a team to develop and implement unionization strategies;
