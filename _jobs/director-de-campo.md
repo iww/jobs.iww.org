@@ -2,7 +2,7 @@
 title: Director de Campo
 description: Como Director de Campo, facilitarás el desarrollo de un sindicato dirigido y operado por trabajadores, te conectarás con organizadores que ya están en la lucha como Brandworkers, una organización de trabajadores de fabricación de alimentos en el área de la ciudad de Nueva York, y reclutarás más voluntarios para apoyar la causa. Como organizador valioso de la IWW, te unirás con líderes trabajadores, organizadores, activistas, aliados comunitarios y nuestro equipo para apoyar nuestra visión de construir poder a través de la acción directa entre las personas oprimidas.
 airtable_form_key: shrXEDHsNNfttBqkm
-published: true
+published: false
 # redirect_from: /campo
 ---
 

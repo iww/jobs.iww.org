@@ -2,7 +2,7 @@
 title: Field Director
 description: The IWW seeks a Field Director of Organizing with labor organizing experience, as well as a demonstrated record of success in running union drives of scale. Under the direction of the Union’s Organizing Department and Brandworkers, the job of the Field Director of Organizing will involve overseeing the deployment of a team of workplace organizers targeting a particular corporate target. This position is based in New Jersey. 
 airtable_form_key: shrXEDHsNNfttBqkm
-published: true
+published: false
 # redirect_from: /field
 ---
 
