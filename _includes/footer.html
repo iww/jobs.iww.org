@@ -6,6 +6,6 @@
       {{- repository.default_branch -}}
     {%- endif -%}
   {%- endfor -%}
-  {{ site.github.source.path }}{{- 'LICENSE' -}}
+  {{ site.github.source.path }}{{- 'LICENSE.md' -}}
 {%- endcapture -%}
 <span><a href="{{- license_url -}}" target="_blank" title="Copyleft: {{ site.github.license.name }}" rel="license external">&nbsp;{{ site.time | date: "%Y" }}</a> <a href="https://iww.org">Industrial Workers of the World</a></span>
