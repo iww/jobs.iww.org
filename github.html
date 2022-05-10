@@ -1,3 +1,5 @@
 ---
 ---
-{{ site.github.source.default_branch }}
+{% for repository in site.github.public_repositories %}
+  {{ repository.name }}: {{ repository.default_branch }}
+{% endfor %}
