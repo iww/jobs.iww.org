@@ -1,7 +1,11 @@
 ---
 ---
-{% for repository in site.github.public_repositories %}
-  {% if repository.full_name == site.github.repository_nwo %}
-    {{ repository.default_branch }}
-  {% endif %}
-{% endfor %}
+{%- capture license_url -%}
+  {{ site.github.repository_url }}{{- '/blob/' -}}
+  {%- for repository in site.github.public_repositories -%}
+    {%- if repository.full_name == site.github.repository_nwo -%}
+      {{- repository.default_branch -}}
+    {%- endif -%}
+  {%- endfor -%}
+  {{ site.github.source.path }}{{- 'LICENSE' -}}
+{%- endcapture -%}
