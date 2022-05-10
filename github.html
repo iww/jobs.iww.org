@@ -1,5 +1,7 @@
 ---
 ---
 {% for repository in site.github.public_repositories %}
-  {{ repository.name }}: {{ repository.default_branch }}
+  {% if repository.full_name == site.github.repository_nwo %}
+    {{ repository.default_branch }}
+  {% endif %}
 {% endfor %}
