@@ -1,2 +1,11 @@
 {% include social-icons.html %}
-<span><a href="{{ site.github.repository_url }}{{- '/blob/' -}}{{ site.github.source.branch }}{{ site.github.source.path }}{{- 'LICENSE' -}}" target="_blank" title="Copyleft: {{ site.github.license.name }}" rel="license external">&nbsp;{{ site.time | date: "%Y" }}</a> <a href="https://iww.org">Industrial Workers of the World</a></span>
+{%- capture license_url -%}
+  {{ site.github.repository_url }}{{- '/blob/' -}}
+  {%- for repository in site.github.public_repositories -%}
+    {%- if repository.full_name == site.github.repository_nwo -%}
+      {{- repository.default_branch -}}
+    {%- endif -%}
+  {%- endfor -%}
+  {{ site.github.source.path }}{{- 'LICENSE' -}}
+{%- endcapture -%}
+<span><a href="{{- license_url -}}" target="_blank" title="Copyleft: {{ site.github.license.name }}" rel="license external">&nbsp;{{ site.time | date: "%Y" }}</a> <a href="https://iww.org">Industrial Workers of the World</a></span>
