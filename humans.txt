@@ -3,7 +3,7 @@ layout:
 permalink: /wobblies.txt
 redirect_from: /humans.txt.html
 ---
-/* WE NEVER FORGET */{% comment %} https://drive.google.com/file/d/1vJ6fF-DxEwlNWC8V7GsIsmhepnsp_UsW/view?usp=sharing {% endcomment %}
+/* WE NEVER FORGET */
 Name: Unidentified I.W.W.
 Date of Death: August 28, 1907
 Cause of Death: Killed on the picket line when scabs overloaded a charge at the mine.
