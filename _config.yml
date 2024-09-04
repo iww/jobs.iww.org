@@ -5,18 +5,18 @@ baseurl: ""
 url: "https://jobs.iww.org"
 
 social_media_accounts:
-  - twitter: iww
   - instagram: industrialworkersoftheworld
   - facebook: iww.org
+  - x: iww
   - linkedin: theiww
   - github: iww
 
 social:
   name: Industrial Workers of the World
   links:
-    - https://twitter.com/iww
     - https://instagram.com/industrialworkersoftheworld
     - https://facebook.com/iww.org
+    - https://x.com/iww
     - https://youtube.com/theiww
     - https://giphy.com/iww
     - https://gfycat.com/@theiww
