@@ -1071,8 +1071,8 @@ Site: https://cloudflare.com/galileo
 /* SITE */
 Last update: {{ site.time | date: "%Y/%m/%d" }}
 Standards: HTML5, CSS3, Sass, JavaScript
-Components: Jekyll, Airtable, Cloudflare Pages, GitHub, Normalize.css
-Software: Jekyll, Atom, Git
+Components: Jekyll, Airtable, Normalize.css
+Software: Jekyll, Atom, Zed, Visual Studio Code, Cloudflare Pages, GitHub, Git
 
 /* DISCLAIMER */
 Despite the axiomatic purpose of humans.txt (or, wobblies.txt), we only include actual names from volunteers, staff, officers, contributors, and other individuals who affirmatively elect to having their information included in this document.
