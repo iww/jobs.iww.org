@@ -182,6 +182,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
 
   svg {
     width: 50px;
