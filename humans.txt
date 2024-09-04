@@ -1044,7 +1044,7 @@ Location of Death: Mindanao, Philippines
 Last update: September, 2020, by x364631
 
 /* TEAM */
-Your title: IWW Tech volunteers
+Designers & Developers: IWW Tech volunteers
 Site: https://iww.org
 GitHub: https://github.com/iww
 Location: North America
